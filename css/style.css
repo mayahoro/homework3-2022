@@ -124,7 +124,6 @@ nav a:focus{
 
 .about, .clients, .method, .contact{ 
   grid-column: 2 / 3;
-  align-self: center;  
 } 
 
 img { 

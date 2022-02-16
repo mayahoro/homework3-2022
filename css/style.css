@@ -95,7 +95,7 @@ a.skip{
 }
 
 
-nav a:focus{
+a:focus{
   outline: none;
   border-top: 2px solid yellow;
 }
@@ -115,7 +115,7 @@ nav a:focus{
 .intro{
   background-image:url("../images/header.jpg");
   min-height: 400px;
-  background-color: #DDDDDD;
+  background-color: #707070;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,11 +174,9 @@ img {
     margin-right:0;
   }
 
-  a[href="#main"]:focus
+  a.skip:focus
   {
-    outline: none;
-    border-top: 2px solid yellow;
-    left: initial;
+    left: 0px;
     top: 20px;
     
   }
@@ -196,14 +194,14 @@ img {
   .method,
   .clients-image,
   .contact-image{
-    grid-template-columns: 3 / span 2;
+    grid-column: 3 / span 2;
   }
 
   .clients,
   .contact,
   .about-image,
   .method-image{
-    grid-template-columns: 2 / span 2;
+    grid-column: 2 / span 2;
   }
 }
 
